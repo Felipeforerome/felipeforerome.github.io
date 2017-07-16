@@ -1,0 +1,17 @@
+#cycler{
+    position:inherit;
+   /* width: 60%;*/
+    /*border:3px solid #8AC007;*/
+    /*padding: 10px;*/
+}
+#cycler img{
+    position:absolute;
+    z-index:1;
+    width:100%;
+    position:center;
+    overflow: hidden;
+}
+#cycler img.active{
+    z-index:3
+    
+}
